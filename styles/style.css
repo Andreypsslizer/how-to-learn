@@ -38,6 +38,8 @@
   font-size: 102px;
   line-height: 96px;
   padding-left: 64px;
+  position: relative;
+  z-index: 3;
 }
 
 .header__subtitle {
@@ -50,6 +52,7 @@
   bottom: 30px;
   margin: 0;
   padding: 0;
+  z-index: 3;
 }
 
 .header__link {
@@ -247,6 +250,8 @@
 }
 
 .section-title_theme_dark{
+  position: relative;
+  z-index: 2;
   color: white;
   text-align: center;
   line-height: 1.15;
@@ -257,6 +262,8 @@
 }
 
 .section-subtitle_theme_dark{
+  position: relative;
+  z-index: 2;
   margin: 0;
   padding: 0;
   color: white;
