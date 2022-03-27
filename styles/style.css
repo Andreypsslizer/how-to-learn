@@ -22,7 +22,7 @@
   /* выше установили ограничения для секции */
 }
 
-.logo__place_header {
+.logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
@@ -276,6 +276,7 @@
 
 .kaufman__triangle {
   background-image: url(../images/kaufman-triangle.svg);
+  background-size: contain;
   height: 877px;
   width: 877px;
   position: absolute;
@@ -326,12 +327,12 @@
   justify-content: space-between;
 }
 
-.logo__place_footer {
+.logo_place_footer {
   width: 183px;
   height: 35px;
 }
 
-.footer__column__content_copyright {
+.footer__column_content_copyright {
   display: flex;
   flex-basis: 711px;
   flex-direction: column;
@@ -339,7 +340,7 @@
   align-items: flex-start;
 }
 
-.footer__column__content-info {
+.footer__column_content_info {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
